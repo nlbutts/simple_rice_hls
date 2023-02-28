@@ -1,0 +1,22 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="compress_line" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="compress_line"/>
+            </pragma>
+        </directive>
+        <directive functionName="compress_line" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_vld" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="pixels"/>
+            </pragma>
+        </directive>
+        <directive functionName="compress_line" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_memory" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="output"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+
